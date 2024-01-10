@@ -42,3 +42,11 @@ let arrayTeacherIntern = [
         score :8
     }
 ]
+// duyệt mảng arrayTeacherIntern nếu gv nào có score > 5 thì sẽ đẩy
+//vào arrayObject arrayTeacherPoly
+for(let {name,birth,score} of arrayTeacherIntern) {
+    if(score > 5) {
+        arrayTeacherPoly = [...arrayTeacherPoly,{name,birth}]
+    }
+}
+console.log(arrayTeacherPoly);
