@@ -28,4 +28,19 @@ tinhDienTich
 let numbers = [1,2,3,4,5,6];
 let doubleNumbers = numbers.map((num)=>num * 2);
 console.log(doubleNumbers);
+//tạo 1 mảng list hcn như sau 
+let hcm = [{cd:8,cr:6},{cd:7,cr:6},{cd:9,cr:6}];
+//sử dụng map để tạo ra 1 mảng 
+//lưu diện tích của các hình chữ
+// nhật trên
+let numberString = ["1","2","3","4","5","6"];
+// tạo ra  1 mảng mới biến các chuỗi số thành các chữ số
+// [1,2,3,4,5,6]
+let teacher = [{id:1,name:"Thắng"},{id:2,name:"Tú"}];
+// tạo ra 1 mảng mới chỉ để lưu tên của giảng viên 
+let student = [
+    {id:1,name:"Huy",namsinh:2003,toan:7,ly:8,hoa:9},
+    {id:2,name:"Toàn",namsinh:2003,toan:0,ly:0,hoa:10}
+]
+console.log(123);
 
