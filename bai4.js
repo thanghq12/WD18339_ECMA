@@ -29,7 +29,9 @@ let numbers = [1,2,3,4,5,6];
 let doubleNumbers = numbers.map((num)=>num * 2);
 console.log(doubleNumbers);
 //tạo 1 mảng list hcn như sau 
-let hcm = [{cd:8,cr:6},{cd:7,cr:6},{cd:9,cr:6}];
+let hcn = [{cd:8,cr:6},{cd:7,cr:6},{cd:9,cr:6}];
+let dienTich = hcn.map(({cd,cr})=> cd * cr);
+console.log(dienTich);
 //sử dụng map để tạo ra 1 mảng 
 //lưu diện tích của các hình chữ
 // nhật trên
