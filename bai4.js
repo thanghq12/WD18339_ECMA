@@ -42,5 +42,11 @@ let student = [
     {id:1,name:"Huy",namsinh:2003,toan:7,ly:8,hoa:9},
     {id:2,name:"Toàn",namsinh:2003,toan:0,ly:0,hoa:10}
 ]
+//tạo ra 1 mảng mới là infoStudent chỉ lưu thông tin 
+// dạng như sau của từng student
+// tuoi = năm hiện tại - năm sinh 
+//điểm tb = toan+ly + hoa/3
+{id,name,tuoi,diemtb}
 console.log(123);
-
+console.log(1233333);
+console.log(1232323213123);
