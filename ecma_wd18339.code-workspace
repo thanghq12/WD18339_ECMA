@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../ecma"
+		},
+		{
+			"path": "../ecma/test-vite"
+		},
+		{
+			"path": "../angularjs"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ecma_wd18339"
+	}
+}
