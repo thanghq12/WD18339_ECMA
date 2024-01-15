@@ -58,5 +58,22 @@ let infoStudent = students.map((student)=>{
 // console.log(123);
 // console.log(1233333);
 // console.log(1232323213123);
-console.log(1232323213123); console.log(1232323213123); 
-console.log(1232323213123);
+// console.log(1232323213123); console.log(1232323213123); 
+// console.log(1232323213123);
+
+// hàm filter (hàm tạo ra 1 mảng mới theo điều kiện lọc )
+let numbers1 = [1,2,3,4,5,6];
+// tạo ra 1 mảng mới theo điều kiện các phần từ là số chẵn 
+let eventNumber = numbers1.filter((num) => num % 2 === 0) ;
+console.log(eventNumber) ;// [2,4,6];
+// hàm reduce //tính tổng các phần tử trong mảng 
+let numbers2 = [1,2,3,4,5];
+let sum = numbers2.reduce((total,num)=>total+num,0);
+//
+let students1 = [{"id":1,"name":"Thang",age:15},
+                {"id":2,"name":"huy",age:25}];
+// sử dụng reduce tính tổng tuổi trong danh sách
+// sử dụng filter lọc ra những đối tượng có tuổi  > 18 
+let sumAge = students1.reduce((total,student)=>total+student.age,0);
+let studentAge = students1.filter((student) => student.age > 18) ;
+console.log(studentAge);
